@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    runs-on: macos-latest
+    runs-on: master
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
